@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <h1>Calculadora</h1>
+    <hr>
+    <link href="calculadora.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <label>Valor 1 e Valor 2:</label>
+        <br>
+        <input type="number" name="Valor1" placeholder="Insira aqui o valor 1" maxlength="10">
+        <input type="number" name="Valor2" placeholder="Insira aqui o valor 2" maxlength="10" size="200">
+        <br>
+        <label>Operação:</label>
+        <br>
+        <select name="FA">
+            <option value="adicao">Adição</option>
+            <option value="subtracao">Subtração</option>
+            <option value="divisao"><A>Divisão</A></option>
+            <option value="multiplicacao"><A>Multiplicação</A></option>
+        </select>
+        <br>
+        <br>
+        <label>Valor 3 e Valor 4:</label>
+        <br>
+        <input type="number" name="Valor3" placeholder="Insira aqui o valor 3" maxlength="10" size="200">
+        <input type="number" name="Valor4" placeholder="Insira aqui o valor 4" maxlength="10" size="200">
+        <br>
+        <br>
+        <input type="submit" name="calcular" value="CALCULAR">
+        <br>
+        <br>
+        <label>Resultado:</label>
+        <br>
+        <input type="number" name="Resultado" name="Resultado" placeholder="Resultado aqui">
+        <br>
+        <br>
+        <input type="reset" name="Limpar" value="LIMPAR">
+    </form>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <br>
+
+    <form>
+        <h2>Troco</h2>
+        <br>
+        <input type="number" name="valor da compra" placeholder="Valor da Compra" maxlength="10">
+        <input type="number" name="valor Pago" placeholder="Valor Pago" maxlength="10">
+        <br>
+        <br>
+        <label>Forma de pagamento:</label>
+        <br>
+        <input type="checkbox" name="PIX" value="PIX">
+        <label>PIX</label>
+        <br>
+        <input type="checkbox" name="Cartão de Débito" value="Cartão de Débito">
+        <label>Cartão de Débito</label>
+        <br>
+        <input type="checkbox" name="Cartão de Crédito" value="Cartão de Crédito">
+        <label>Cartão de Crédito</label>
+        <br>
+        <input type="checkbox" name="dinheiro" value="Dinheiro">
+        <label>Dinheiro</label>
+        <br>
+        <br>
+        <input type="submit" name="calcular" value="Calcular">
+        <input type="reset" name="apagar" value="Apagar">
+        <br>
+        <br>
+        <input type="number" name="Troco" placeholder="Seu troco aqui">
+        <br>
+        <br>
+         <figure>
+            <a href="index.html"><img src="sair.png" width="20" height="20"></a>
+        </figure>
+         <h3><a href="sobre.html"> Sobre </a></h3>
+    </form>
+
+    <!-- Plugin VLibras -->
+   <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- Plugin VLibras -->
+
+
+</body>
+</html>

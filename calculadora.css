@@ -1,0 +1,47 @@
+form {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+option {
+    text-align: center;
+}
+
+body {
+    background-color: aquamarine
+}
+
+input[type='number']{
+    width: 210px;
+    height: 20px;
+}
+
+body {
+    background-image: url(Design.png) ;
+    background-attachment: fixed;
+}
+
+hr {
+    width:50%;
+    height:1px;
+    background-color: black;
+}
+
+.calcular {
+    text-align: center;
+}
+
+figure{
+    text-align: left;
+}
+
+h3{
+    text-align: right;
+}
