@@ -1,0 +1,82 @@
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 98vh;
+    background-image: linear-gradient(45deg, #86fbc3, #2bff60);
+}
+
+.cadastro {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 252, 223);
+    width: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Arimo
+}
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 98vh;
+    background-image: linear-gradient(45deg, #86fbc3, #2bff60);
+}
+
+.cadastro {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(193, 252, 223);
+    width: auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: 'Arimo', sans-serif;
+    height: auto;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tiltle {
+    margin-right: 60px;
+    padding: 20px;
+    font-family: 'Kalam', cursive;
+    color: rgb(25, 124, 0);
+}
+
+.tiltle h1 {
+    font-size: 60px;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    outline-style: none;
+    border: none;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: rgb(103, 250, 140);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(25, 124, 0);
+    margin-top: 5px;
+}

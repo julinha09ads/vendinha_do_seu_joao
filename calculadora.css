@@ -1,4 +1,17 @@
-form {
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.calc {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(103, 250, 140, 0.616);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
@@ -6,42 +19,68 @@ h1 {
     text-align: center;
 }
 
-input {
-    text-align: center;
-}
-
-option {
-    text-align: center;
-}
-
-body {
-    background-color: aquamarine
-}
-
-input[type='number']{
-    width: 210px;
-    height: 20px;
-}
-
-body {
-    background-image: url(Design.png) ;
-    background-attachment: fixed;
-}
-
 hr {
-    width:50%;
-    height:1px;
-    background-color: black;
+    margin: 20px 0;
+    border: none;
+    border-top: 2px solid #ffffff;
 }
 
-.calcular {
-    text-align: center;
+.form-section {
+    margin-bottom: 20px;
 }
 
-figure{
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    background-color: rgb(103, 250, 140);
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.form-section label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#resultado {
+    font-weight: bold;
+    margin-top: 10px;
     text-align: left;
 }
 
-h3{
-    text-align: right;
+.radio-section {
+    margin-top: 5px;
+}
+
+
+
+.foto {
+    font-size: 30px;
+    color: rgb(103, 250, 140);
+}
+
+i {
+    color: rgb(25, 124, 0);
+}
+
+.result {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }

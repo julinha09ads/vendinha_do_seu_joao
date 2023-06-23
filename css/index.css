@@ -1,0 +1,83 @@
+
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 98vh;
+    
+        background-image: linear-gradient(45deg, #86fbc3, #2bff60);
+      
+}
+.login {
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   background-color: rgb(193, 252, 223);
+   width: auto;
+   text-align: center;
+   border-radius: 10px;
+   columns: 3;
+   padding: 20px;
+   height: 340px;
+   font-family: 'Arimo', sans-serif;
+   font-family: 'Arimo', sans-serif;
+}
+.entrar {
+    
+    height: auto;
+    width: auto;
+    background-color: rgb(103, 250, 140);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.figure2 {
+    font-size: 30px;
+    
+
+}
+
+.tiltle {
+    margin-right: 60px;
+    padding: 20px;
+    font-family: 'Kalam', cursive;
+    color: rgb(25, 124, 0);
+}
+
+
+
+.tiltle h1 {
+    font-size: 60px;
+    display: flex;
+    
+}
+
+h2 {
+
+    font-size: 40px;
+    
+    
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 250px;
+    height: 30px;
+    outline-style: none;
+   border: none;
+   padding: 5px;
+}
+
+i {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.entrar a {
+    color: rgb(25, 124, 0);
+}
